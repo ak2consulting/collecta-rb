@@ -21,6 +21,7 @@ begin
     gem.test_files = FileList['spec/**/*.rb']
   end
   Jeweler::GemcutterTasks.new
+  task :release => 'gemcutter:release'
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
 end

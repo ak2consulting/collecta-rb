@@ -5,3 +5,4 @@ rdoc
 pkg
 .yardoc
 doc
+collecta-rb.gemspec
